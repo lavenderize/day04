@@ -1,19 +1,5 @@
-# 7.11
+# 8.1
 
-start1 = ["fee", "fie", "foe"]
-rhymes = [
-    ("flop", "get a mop"),
-    ("fope", "turn the rope"),
-    ("fa", "get your ma"),
-    ("fudge", "call the judge"),
-    ("fat", "pet the cat"),
-    ("fog", "walk the dog"),
-    ("fun", "say we're done"),
-    ]
-
-start2 = "Someone better"
-
-a = [start1.capitalize() for start1 in start1]
-start1.append('! ')
-print('! '.join(a))
+e2f = {'dog': 'chien', 'cat': 'chat', 'walrus': 'morse'}
+print(e2f)
 
