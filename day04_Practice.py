@@ -1,9 +1,8 @@
-# 7.8
-surprise = ["Groucho", "Chico", "Harpo"]
+# 7.10
 
-# 7.9
-print(surprise[2].lower())
-print(list(reversed(surprise)))
-# print(surprise.capitalize())
-surprise = [surprise.capitalize() for surprise in surprise]
-print(surprise)
+even_list = []
+for number in range(10):
+    if number % 2 == 0 and number != 0:
+        even_list.append(number)
+
+print(even_list)
